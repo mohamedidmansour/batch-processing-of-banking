@@ -1,2 +1,7 @@
 server:
   port: 5050
+
+batch:
+  transaction:
+    input: "src/main/resources/input/mixed_transactions.csv"
+    output: "src/main/resources/output/mixed_transactions_output.txt"
